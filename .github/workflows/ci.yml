@@ -104,6 +104,7 @@ jobs:
           libraries:
             apt:
               - libopenjp2-7
+        - linux: py-coordinates
     secrets:
       CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
